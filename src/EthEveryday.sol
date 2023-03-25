@@ -24,7 +24,7 @@ contract EthEveryday is ERC1155 {
     }
 
     // if mint was done yesterday, increase mint price by 1.5x
-    // else reset mint price to genesis_mint_price
+    // if not, reset mint price to genesis_mint_price
     function mintPrice() public view returns (uint256) {
         if (mintCount[currentId()-1] > 0) {
             return latest_mint_price * 3 / 2;
