@@ -12,5 +12,5 @@ Used foundry for development. Big s/o to paradigm.
 
 ## Deployment
 
-Scroll Testnet deployment address: 0x40972d6E487634dD2b277379474F35dA618a69Db
-Ethereum Goerli Testnet deployment address: 0xe4899E5617601D5346717d5c5E6A9812b547045D
+- Scroll Testnet deployment address: 0x40972d6E487634dD2b277379474F35dA618a69Db
+- Ethereum Goerli Testnet deployment address: 0xe4899E5617601D5346717d5c5E6A9812b547045D
