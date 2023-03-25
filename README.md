@@ -1,6 +1,6 @@
 # Everyday ETH
 
-![image](https://user-images.githubusercontent.com/50664161/227708953-58f33235-1d45-4959-81bb-def46248de73.png)
+<img src="https://user-images.githubusercontent.com/50664161/227708953-58f33235-1d45-4959-81bb-def46248de73.png" width="400">
 
 `Everyday ETH` is NFT collection. New NFT can be minted everyday. The NFT contains the price of ETH in USD.
 
