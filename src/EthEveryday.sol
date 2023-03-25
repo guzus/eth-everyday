@@ -9,7 +9,7 @@ contract EthEveryday is ERC1155 {
     address public deployer;
     mapping(uint256 => uint256) public mintCount;
 
-    constructor() ERC1155("https://memtherscan.xyz/eth-everyday/{id}") {
+    constructor() ERC1155("https://crypto-meme-server-k5sr2csqpa-ue.a.run.app/{id}.jpeg") {
         deployer = msg.sender;
         mint(msg.sender);
     }

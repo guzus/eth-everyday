@@ -30,7 +30,7 @@ local-node: setup-yarn
 	yarn hardhat node 
 
 deploy:
-	forge create EthEveryday --private-key ${PRIVATE_KEY} --rpc-url https://alpha-rpc.scroll.io/l2 --legacy
+	forge create EthEveryday --private-key ${PRIVATE_KEY} --rpc-url ${RPC_URL} --legacy
 
 verify:
 	forge verify-contract ${DEPLOYED_ADDRESS} EthEveryday ${ETHERSCAN_KEY}
